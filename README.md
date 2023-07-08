@@ -1,31 +1,8 @@
 # MoviePalooza - Movie Finder Website
 
-To start this web app, you may need to open two terminals, one running the backend, and the other one running the frontend.
 
-## Run Frontend
-Make sure you have installed Node.js and npm on your computer.
-The required version of Node.js is at least 14.15.
-Run the following command in the terminal to check the version of Node.js and npm.
-
-```
-node -v
-npm -v
-```
-
-1. Navigate to the **client** folder and run the following command in the terminal
-
-```
-npm install
-```
-This step will automatically install all the dependencies required for the frontend.
-
-2. After successful installation, run the following command in the terminal
-
-```
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Frontend View
+The production mode is deployed on Vercel **[https://movie-finder-three-inky.vercel.app/](https://movie-finder-three-inky.vercel.app/)** because of hiding two external API Keys.
 
 
 ## Run Backend
