@@ -82,4 +82,10 @@ Open **[http://127.0.0.1:5005](http://127.0.0.1:5005)** to view the backend api 
 ![Cast Page](/screenshot/Userpage.png)
 #### Search Page
 ![Search Page](/screenshot/search.png)
+
+
 #### ...Ban List Page, Wish List Page, Following Page etc.
+
+#### Jira Page
+
+![Search Page](/screenshot/jira.png)
