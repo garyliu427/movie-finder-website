@@ -20,7 +20,9 @@ function WishListScreen() {
   const [open, setOpen] = useState(false);
   const { user_id } = useParams();
   const Authorization = localStorage.getItem("authToken");
-  const urlRef = useRef(`http://localhost:3000/wishlist/${user_id}`);
+  const urlRef = useRef(
+    `http://movie-finder-three-inky.vercel.app/wishlist/${user_id}`,
+  );
   const base64Flag = "data:image/jpeg;base64,";
 
   useEffect(() => {

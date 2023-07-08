@@ -46,7 +46,9 @@ function MovieDetails(authToken) {
   const [avatar, setAvatar] = useState("");
   const [movieDetail, setMovieDetail] = useState([]);
   const convertRunTime = convertRuntime(movieDetail?.runtime);
-  const urlRef = useRef(`http://localhost:3000/movies/${movie_id}`);
+  const urlRef = useRef(
+    `http://movie-finder-three-inky.vercel.app/movies/${movie_id}`,
+  );
 
   const formik = useFormik({
     initialValues: {
