@@ -1,0 +1,6 @@
+.avatar__poster {
+  object-fit: contain;
+  margin: 10px;
+  height: 150px;
+  display: flex;
+}

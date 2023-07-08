@@ -1,0 +1,12 @@
+.horizontalScroll__library {
+  width: 77vw;
+}
+
+.row__poster__library {
+  object-fit: contain;
+  margin-right: 10px;
+  height: 350px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+}

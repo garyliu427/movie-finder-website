@@ -1,0 +1,53 @@
+.movie__detail__poster {
+  height: 400px;
+  width: auto;
+}
+
+.movie__detail__actor__photo {
+  height: 300px;
+  width: auto;
+}
+
+.photo__poster {
+  object-fit: contain;
+  margin-right: 10px;
+  height: 300px;
+  display: flex;
+}
+
+.container__photo {
+  position: relative;
+}
+
+.row__photo {
+  display: flex;
+  padding-right: 2vw;
+  height: 400px;
+}
+
+.horizontalScroll__photo {
+  width: 56vw;
+}
+
+.heart {
+  display: block;
+  fill: rgba(0, 0, 0, 0.5);
+  height: 24px;
+  width: 24px;
+  stroke: var(--f-mkcy-f);
+  stroke-width: 2;
+  overflow: visible;
+}
+.heartRed {
+  display: block;
+  fill: rgba(255, 0, 0, 0.5);
+  height: 24px;
+  width: 24px;
+  stroke: var(--f-mkcy-f);
+  stroke-width: 2;
+  overflow: visible;
+}
+.heart:hover {
+  fill: rgba(255, 0, 0, 0.5);
+  cursor: pointer;
+}

@@ -1,0 +1,133 @@
+.banner {
+  position: relative;
+  height: 720px;
+  color: white;
+  object-fit: contain;
+}
+
+.banner__contents {
+  height: 720px;
+  width: 100%;
+}
+.outer {
+  text-align: center;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.imgBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.leftBanner {
+  padding-top: 210px;
+  text-align: center;
+}
+.rightBanner {
+  padding-top: 140px;
+  text-align: center;
+}
+
+.banner__title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+.banner__description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  height: 80px;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
+
+.bottomBanner {
+  position: absolute;
+  /* top:89%; */
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+}
+.leftbottomBanner {
+  background-color: #4cceac;
+  width: 10px !important;
+}
+.rightbottomBanner {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px 20px;
+}
+.rightbottomBanner h1 {
+  margin: 0;
+}
+.welcomeMessage,
+.slogan {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .horizontalScroll {
+    width: 100%;
+  }
+
+  .banner {
+    position: relative;
+    height: 65vh;
+    color: white;
+    object-fit: contain;
+  }
+
+  .blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+  }
+
+  .bottomBanner {
+    position: absolute;
+    bottom: 23%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .leftbottomBanner {
+    background-color: #4cceac;
+    width: 40px !important;
+  }
+  .rightbottomBanner {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1vh 1vw;
+  }
+  .rightbottomBanner h1 {
+    font-size: 1rem;
+  }
+
+  .welcomeMessage,
+  .slogan {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+  }
+}

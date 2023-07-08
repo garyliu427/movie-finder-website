@@ -1,0 +1,9 @@
+.moviedetail__review__avatar {
+  object-fit: contain;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.moviedetail__review__span {
+  font-weight: bold;
+}

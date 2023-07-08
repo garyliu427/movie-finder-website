@@ -1,0 +1,8 @@
+db/instance
+db/*.tsv
+db/movies
+db/actors
+db/directors
+db/avatars
+**/__pycache__
+**/project.db

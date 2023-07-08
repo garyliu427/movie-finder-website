@@ -1,0 +1,9 @@
+.list__topRated {
+  object-fit: contain;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.list__topRated {
+  margin-right: 20px;
+}
